@@ -23,7 +23,7 @@ body{
     display: flex;
     justify-content: end;
     align-items: center;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 100;
 
 }
@@ -45,10 +45,12 @@ input {
     font-weight: 100;
     font-size: 20px;
     border: 0px;
+    text-align: center;
 }   
 
 .whiteButton {
     background-color: rgb(170, 170, 170);
+    color: rgb(27, 27, 27);
 }
 
 .largerButton {
@@ -61,7 +63,7 @@ input {
     
 }
 
-.operator{
+.operator, .operator2{
     background-color: rgba(255, 166, 0, 0.856);
     color: rgba(255, 255, 255, 0.87);
 }
@@ -70,7 +72,7 @@ input {
     background-color: rgb(119, 119, 119);
 }
 
-.operator:active {
+.operator:active, .operator2:active {
     background-color: rgba(255, 208, 120, 0.856);
 }
 
